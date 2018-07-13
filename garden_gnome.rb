@@ -54,7 +54,8 @@ end
    
   
   def introduce_self
-  @intro_gnome =  "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!"
+  @intro_gnome =  "Hello humans, my name is 
+  #{@name}, I am #{@age} years old, and you'll rue the day you crossed me!"
   end
   
   def initialize(name="Walter the Worst")
